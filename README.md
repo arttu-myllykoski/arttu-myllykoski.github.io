@@ -148,25 +148,26 @@ Basically, take the same guidance as above: don't be messy, but if you are, clea
 
 
 ## Exercise 4
+```
+public class Person{  
+  private string name;  
+  private int age;  
 
-public class Person{
-  private string name;
-  private int age;
-
-  public Person(string initialName)
-  {
-    this.age = 0;
-    this.name = initialName;
-  }
-  public void PrintPerson()
-  {
-    Console.WriteLine(this.name + ", age " + this.age + " years");
-  }
-  public void GrowOlder()
-  {
-    this.age = this.age + 1;
-  }
+  public Person(string initialName)  
+  {  
+    this.age = 0;  
+    this.name = initialName;  
+  }  
+  public void PrintPerson()  
+  {  
+    Console.WriteLine(this.name + ", age " + this.age + " years");  
+  }  
+  public void GrowOlder()  
+  {  
+    this.age = this.age + 1;  
+  }  
 }
+```
 
 
 
